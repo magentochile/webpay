@@ -1,9 +1,10 @@
 #Magentochile WebPay
-Accept payments using Webpay Plus Webservices.
 Installation
-1 - unzip de module in app/code/Magentochile/Webpay
-2 - enable module: bin/magento module:enable --clear-static-content Magentochile_Webpay
-3 - upgrade database: bin/magento setup:upgrade
+1 - unzip de module in app/code/Magentochile.zip
+2 - unzip de module in lib/libwebpay.zip
+3 - enable module: bin/magento module:enable --clear-static-content Magentochile_Webpay
+4 - upgrade: bin/magento setup:upgrade
+5 - clean cache: bin/magento cache:clean
 
 In order to deactivate the module bin/magento module:disable --clear-static-content Magentochile_Webpay
 
